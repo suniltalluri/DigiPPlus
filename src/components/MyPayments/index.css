@@ -1,0 +1,131 @@
+.paymentBillContainer{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+    align-items: center;
+}
+.PaymentNavi_head{
+    font-size: 10px;
+    color: rgb(232, 153, 7);
+}
+.Invoices_head{
+    width: 150%;
+    background-color: rgb(71, 76, 80);
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.BankDetails{
+    border-radius: 3px;
+    width: 150%;
+    background-color: rgb(231, 240, 248);
+    color: rgb(18, 17, 17);
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px;
+}
+.paymentDetailsCard{
+    border: 1px solid gray;
+    width: 60%;
+    border-radius: 8px;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10px;
+    margin-left: 100px;
+    margin-right:20px;
+}
+.paymentTimeCard{
+    display: flex;
+}
+.payTime{
+    margin: 0px;
+    margin-right: 25px;
+}
+.payAmount{
+    margin: 0px;
+    margin-right: 25px;
+}
+span{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.paymentText{
+    margin: 3px;
+    font-size: 12px;
+}
+.paymentEarningCard{
+    margin-right: 50px;
+}
+.LifeEarning_head{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 2px;
+}
+.MonthEarning_head{
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.EarningAmount{
+    font-size: 13px;
+    font-weight:bold;
+}
+.rupeeIcon{
+    height: 12px;
+}
+@media (max-width:480px){
+    .paymentBillContainer{
+        flex-direction: column;
+        align-items:flex-start;
+
+    }
+.paymentDetailsCard{
+    width: 56%;
+    height:10vh;
+}    
+.PaymentNavi_head{
+    font-size:9px;
+}
+.Invoices_head{
+    font-size: 7px;
+}
+.BankDetails{
+    font-size: 7px;
+}
+.payTime{
+    font-size: 7px;
+}
+.payAmount{
+    font-size: 7px;
+}
+span{
+    font-size: 7px;
+}
+.paymentText{
+    font-size: 7px;
+}
+.paymentEarningCard{
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    border-top: 2px solid blue;
+}
+.LifeEarning_head{
+    font-size: 8px;
+}
+.MonthEarning_head{
+    font-size: 8px;
+}
+.EarningAmount{
+    font-size: 7px;
+}
+.rupeeIcon{
+    height: 10px;
+}
+}
+
